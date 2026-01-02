@@ -5,7 +5,7 @@ metadata:
 spec:
   metrics:
   - name: verify-canary
-    interval: 1m
+    interval: 20s
     count: 4
     provider:
       job:
